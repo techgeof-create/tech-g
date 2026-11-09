@@ -1,0 +1,26 @@
+# source — never publish
+*.cpp
+*.h
+*.hpp
+main.cpp
+decryptor.cpp
+
+# compiled binaries — publish only via Releases
+main
+decryptor
+
+# build/dist artifacts
+dist/
+24
+*.o
+*.gch
+
+# user runtime files
+myfile.txt
+output
+
+# editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+*~
